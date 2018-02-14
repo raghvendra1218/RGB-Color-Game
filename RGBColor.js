@@ -20,7 +20,7 @@ for( var i =0; i<modeButtons.length; i++) {
 		reset();
 	});
 }
-
+//function to reset the chnanges on the page
 function reset() {
 	colors = generateRandom(numSquares);
 	//pick a new random color from array
